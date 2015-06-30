@@ -1,0 +1,6 @@
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.dll.config
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.dll
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.pdb
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\obj\Debug\ImageUploader.csprojResolveAssemblyReference.cache
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\obj\Debug\ImageUploader.dll
+c:\users\durango\documents\visual studio 2013\Projects\ImageUploader\ImageUploader\obj\Debug\ImageUploader.pdb
