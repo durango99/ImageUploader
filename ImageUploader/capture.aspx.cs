@@ -8,8 +8,11 @@ using System.Web.UI.WebControls;
 
 namespace ImageUploader
 {
-    public partial class ImageUploader: System.Web.UI.Page
+    public class ImageUploader: System.Web.UI.Page
     {
+
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divContent;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpFileCollection uploadFiles = Request.Files;
@@ -26,8 +29,14 @@ namespace ImageUploader
                 HttpPostedFile postedFile = uploadFiles[i];
 
                 string pfilename = Path.GetFileName(postedFile.FileName);
+                string pext = Path.GetExtension(pfilename);
+                pext = pext.ToLower();
 
-                if (pfilename.Length > 0)
+                List<string> validExtensions = new List<string> { ".jpg", ".jpeg", ".png", ".tiff", ".tif", ".gif" };
+
+
+
+                if (pfilename.Length > 0 && validExtensions.Contains(pext))
                 {
                     // Access the uploaded file's content in-memory:
                     //System.IO.Stream inStream = postedFile.InputStream;
@@ -44,9 +53,15 @@ namespace ImageUploader
 
                     // Also, get the file size and filename (as specified in
                     // the HTML form) for each file:
-                    summary += "<li>" + pfilename + ": "
-                        + postedFile.ContentLength.ToString() + " bytes</li>";
+                    summary += "<li><b>" + pfilename + ": " + pext + " "
+                        + postedFile.ContentLength.ToString() + " bytes</b></li>";
                 }
+                else
+                {
+                    summary += "<li><i>" + pfilename + ": " + pext + " "
+                        + " Extension not supported - not uploaded</i>";
+                }
+
             }
             summary += "</ol>";
 

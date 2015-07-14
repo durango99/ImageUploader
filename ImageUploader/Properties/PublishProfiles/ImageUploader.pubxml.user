@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Projects\ImageUploader</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ImageUploader.dll">
+      <publishTime>07/14/2015 10:16:57</publishTime>
+    </File>
+    <File Include="capture.aspx">
+      <publishTime>07/14/2015 10:31:48</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>07/14/2015 10:32:15</publishTime>
+    </File>
+    <File Include="main.css">
+      <publishTime>06/29/2015 17:58:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/14/2015 10:17:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

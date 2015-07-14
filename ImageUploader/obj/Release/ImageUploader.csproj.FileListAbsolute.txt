@@ -1,5 +1,5 @@
 C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.dll.config
 C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.dll
 C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\bin\ImageUploader.pdb
-C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\obj\Debug\ImageUploader.dll
-C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\obj\Debug\ImageUploader.pdb
+C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\obj\Release\ImageUploader.dll
+C:\Users\durango\Documents\Visual Studio 2013\Projects\ImageUploader\ImageUploader\obj\Release\ImageUploader.pdb
